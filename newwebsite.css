@@ -1,0 +1,427 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.Page {
+    width: 100svw;
+    height: 100svh;
+    background-color: aliceblue;
+
+}
+
+#P1 {
+    background-color: white;
+    background-image: url(../public/image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mobile {
+    position: relative;
+    left: 700px;
+    width: fit-content;
+    height: fit-content;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.box {
+    width: 500px;
+    height: 450px;
+    position: relative;
+    left: 700px;
+}
+
+.div1 {
+    width: 500px;
+    height: 225px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.b1 {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 50px;
+    left: 150px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+
+
+}
+
+.b1:hover {
+    transform: scale(1.1);
+}
+
+.b2 {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 50px;
+    right: 30px;
+    left: 100px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+
+
+
+
+}
+
+.b2:hover {
+    transform: scale(1.1);
+}
+
+
+
+.div2 {
+    width: 500px;
+    height: 225px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.b3 {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left: 150px;
+    top: 10px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+
+
+}
+
+.b3:hover {
+    transform: scale(1.1);
+}
+
+.b4 {
+    width:150px;
+    height:150px;
+    position: relative;
+    left: 100px;
+    right: 120px;
+    top: 10px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: rgba(226, 216, 216, 0.35) 0px 5px 15px;
+    cursor: pointer;
+
+}
+
+.b4:hover {
+    transform: scale(1.1);
+}
+
+
+#P2 {
+
+    background-color: white;
+
+}
+
+.heading {
+    width: 100%;
+    position: relative;
+    top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.heading h1{
+    font-size:35px;
+    text-align: center;
+}
+
+.h2 {
+    width: 700px;
+    height: 100px;
+    position: relative;
+    left: 400px;
+    top: 70px;
+    font-size: 22px;
+
+}
+
+.box2 {
+    width: 800px;
+    height: 400px;
+    position: relative;
+    top: 10px;
+    left: 350px;
+    bottom:50px;
+}
+
+.c1 {
+    width: 800px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.s1,
+.s2 {
+    width: 380px;
+    height: 150px;
+    background-color: white;
+    position: relative;
+    top: 50px;
+    border: 4px solid #000000;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    cursor: pointer;
+}
+
+.s1:hover {
+    transform: scale(1.1);
+}
+
+.s2:hover {
+    transform: scale(1.1);
+}
+
+.c2 {
+    width: 800px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.s3,
+.s4 {
+    width: 380px;
+    height: 150px;
+    background-color: white;
+    position: relative;
+    top: 50px;
+    border: 4px solid black;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    cursor: pointer;
+}
+
+.s3:hover {
+    transform: scale(1.1);
+}
+
+.s4:hover {
+    transform: scale(1.1);
+}
+
+.logo1,
+.logo2,
+.logo3,
+.logo4 {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    position: relative;
+    left: 10px;
+    top: 10px;
+    border-radius: 40px;
+    background-image: url(../public/icon_page2.png.jpg);
+    background-size: cover;
+}
+
+#h1,
+#h2,
+#h3,
+#h4 {
+    width: 300px;
+    position: relative;
+    left: 50px;
+    font-size:20px;
+}
+
+#a,
+#b,
+#c,
+#d {
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    left: 50px;
+    top: 20px;
+    font-size: 20px;
+}
+
+#P3 {
+    background-color: white;
+
+}
+
+.Model {
+    width: 700px;
+    height: 500px;
+    background-color: rgb(23, 23, 204);
+    position: relative;
+    top: 50px;
+    left: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+
+.text,
+.text1 {
+    width: 600px;
+    height: fit-content;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+
+.text1 {
+    font-size: 25px;
+    position: relative;
+    top: 100px;
+}
+
+.Button {
+    width: 120px;
+    height: 50px;
+    position: relative;
+    top: 150px;
+    left: 120px;
+    text-align: center;
+    align-content: center;
+    border-radius: 80px;
+    border: 3px solid white;
+    color: white;
+    cursor: pointer;
+}
+
+.Button:hover {
+    transform: scale(1.2);
+}
+
+.Model1 {
+
+    width: 300px;
+    height: 450px;
+    background-color: white;
+    position: relative;
+    bottom: 350px;
+    left: 930px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-image: url(../public/girl_image_page3.jpg);
+    background-size: cover;
+
+}
+
+
+
+#P4 {
+    background-color: white;
+}
+
+.About {
+    width: 100%;
+    height: 450px;
+    border: 1px solid pink;
+}
+
+.Pic {
+    width: 500px;
+    height: 400px;
+    background-color: blueviolet;
+    position: relative;
+    left: 10px;
+    top: 30px;
+    background-image: url(../public/man_image_page4.jpg);
+    background-size: cover;
+}
+
+.Content {
+    width: 600px;
+    height: 250px;
+    position: relative;
+    left: 600px;
+    font-size: 20px;
+
+}
+
+.Pic1 {
+    width: 150px;
+    height: 150px;
+    background-color: brown;
+    position: relative;
+    left: 90px;
+    top: 5px;
+    border-radius: 100px;
+    background-image: url(../public/phone_icon_page4.png.jpg);
+    background-size: cover;
+
+}
+
+.Pic2 {
+    width: 150px;
+    height: 50px;
+    background-color: blue;
+    position: relative;
+    left: 1100px;
+    bottom: 70px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.Pic2:hover {
+    transform: scale(1.2);
+}
+
+#info {
+    width: fit-content;
+    position: relative;
+    left:25px;
+    top: 7px;
+    color: white;
+}
+
+.more {
+    width: 120px;
+    height: 50px;
+    background-color: blue;
+    position: relative;
+    top: 25px;
+    left: 5px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.more:hover {
+    transform: scale(1.2);
+}
+
+#read {
+    width: fit-content;
+    position: relative;
+    top: 15px;
+    left: 20px;
+    color: white;
+}
